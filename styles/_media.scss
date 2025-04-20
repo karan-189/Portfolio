@@ -1,5 +1,32 @@
+@media screen and (max-width: 400px) {
+   .contact-info{
+     font-size: 13px;
+   }
 
+   .i-c-2
+   {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+   }
+   .contact-content-con .right-contact .i-c-2 :last-child{
+    margin-left: 0px
+   }
+
+   .controlls{
+    height: 3rem;
+    .control 
+    {
+        height: 30px;
+        width: 30px;
+    }i{
+        font-size: 15px !important;
+    }
+   }
+}
 @media screen and (max-width: 600px){
+
+    
     header{
         padding: 0;
     }
